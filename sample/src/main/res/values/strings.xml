@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name" translatable="false">Bulletin</string>
+
+    <!-- Provide your own string resources to override the default change type label strings -->
+    <!--
+    <string name="change_type_default">misc</string>
+    <string name="change_type_improved">enhanced</string>
+    <string name="change_type_fixed">bug</string>
+    <string name="change_type_removed">gone</string>
+    <string name="change_type_deprecated">obsolete</string>
+    <string name="change_type_security">notice</string>
+    <string name="change_type_maintenance">these can be anything</string>
+    <string name="change_type_new">🚀</string>
+    -->
+</resources>

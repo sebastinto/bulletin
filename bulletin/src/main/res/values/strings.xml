@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="change_type_default">changed</string>
+    <string name="change_type_improved">improved</string>
+    <string name="change_type_fixed">fixed</string>
+    <string name="change_type_removed">removed</string>
+    <string name="change_type_deprecated">deprecated</string>
+    <string name="change_type_security">security</string>
+    <string name="change_type_maintenance">maintenance</string>
+    <string name="change_type_new">new</string>
+</resources>
