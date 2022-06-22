@@ -41,7 +41,7 @@ import com.tobianoapps.bulletin.util.capitalized
  * @param[onChangeClick] callback when this [Composable]'s [Text] is tapped.
  */
 @Composable
-fun ChangeText(
+internal fun ChangeText(
     modifier: Modifier = Modifier,
     change: Change,
     config: BulletinConfig,
