@@ -294,14 +294,14 @@ To override the strings used on the change type labels, simply provide your cust
 
 ```xml
 <resources>
-    <string name="change_type_default">misc</string>
-    <string name="change_type_improved">enhanced</string>
-    <string name="change_type_fixed">bug</string>
-    <string name="change_type_maintenance">these can be anything</string>
-    <string name="change_type_new">🚀</string>
-    <string name="change_type_removed">gone</string>
-    <string name="change_type_deprecated">obsolete</string>
-    <string name="change_type_security">notice</string>
+    <string name="bulletin_change_type_default">misc</string>
+    <string name="bulletin_change_type_improved">enhanced</string>
+    <string name="bulletin_change_type_fixed">bug</string>
+    <string name="bulletin_change_type_maintenance">these can be anything</string>
+    <string name="bulletin_change_type_new">🚀</string>
+    <string name="bulletin_change_type_removed">gone</string>
+    <string name="bulletin_change_type_deprecated">obsolete</string>
+    <string name="bulletin_change_type_security">notice</string>
 </resources>
 ```
 
