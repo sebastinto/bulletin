@@ -64,7 +64,7 @@ internal fun ReleaseHeader(
  * @param[config] used to configure display options and style
  */
 @Composable
-fun ReleaseTitle(
+internal fun ReleaseTitle(
     release: Release,
     config: BulletinConfig = BulletinConfig()
 ) {
@@ -86,7 +86,7 @@ fun ReleaseTitle(
  * @param[config] used to configure display options and style
  */
 @Composable
-fun ReleaseDate(
+internal fun ReleaseDate(
     release: Release,
     config: BulletinConfig = BulletinConfig()
 ) {

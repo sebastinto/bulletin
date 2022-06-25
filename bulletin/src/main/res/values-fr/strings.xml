@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="change_type_default">changé</string>
-    <string name="change_type_deprecated">obsolète</string>
-    <string name="change_type_removed">supprimé</string>
-    <string name="change_type_fixed">réparé</string>
-    <string name="change_type_improved">amélioré</string>
-    <string name="change_type_security">sécurité</string>
-    <string name="change_type_maintenance">maintenance</string>
-    <string name="change_type_new">nouveau</string>
+    <string name="bulletin_change_type_default">changé</string>
+    <string name="bulletin_change_type_deprecated">obsolète</string>
+    <string name="bulletin_change_type_removed">supprimé</string>
+    <string name="bulletin_change_type_fixed">réparé</string>
+    <string name="bulletin_change_type_improved">amélioré</string>
+    <string name="bulletin_change_type_security">sécurité</string>
+    <string name="bulletin_change_type_maintenance">maintenance</string>
+    <string name="bulletin_change_type_new">nouveau</string>
 </resources>

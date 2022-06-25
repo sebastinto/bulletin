@@ -29,14 +29,14 @@ import com.tobianoapps.bulletin.data.config.color.ChangeTagTheme
  */
 enum class ChangeType(@StringRes val label: Int) {
 
-    DEFAULT(label = R.string.change_type_default),
-    IMPROVED(label = R.string.change_type_improved),
-    FIXED(label = R.string.change_type_fixed),
-    MAINTENANCE(label = R.string.change_type_maintenance),
-    NEW(label = R.string.change_type_new),
-    REMOVED(label = R.string.change_type_removed),
-    DEPRECATED(label = R.string.change_type_deprecated),
-    SECURITY(label = R.string.change_type_security);
+    DEFAULT(label = R.string.bulletin_change_type_default),
+    IMPROVED(label = R.string.bulletin_change_type_improved),
+    FIXED(label = R.string.bulletin_change_type_fixed),
+    MAINTENANCE(label = R.string.bulletin_change_type_maintenance),
+    NEW(label = R.string.bulletin_change_type_new),
+    REMOVED(label = R.string.bulletin_change_type_removed),
+    DEPRECATED(label = R.string.bulletin_change_type_deprecated),
+    SECURITY(label = R.string.bulletin_change_type_security);
 
     companion object {
         @Composable
