@@ -36,7 +36,7 @@ import com.tobianoapps.bulletin.util.allCaps
 import com.tobianoapps.bulletin.util.hasTagBorder
 
 @Composable
-fun ChangeTypeTag(
+internal fun ChangeTypeTag(
     changeType: ChangeType,
     config: BulletinConfig,
     index: Int = -1

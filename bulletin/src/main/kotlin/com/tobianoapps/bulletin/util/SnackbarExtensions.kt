@@ -20,7 +20,7 @@ import android.util.Log
 import androidx.compose.material.SnackbarHostState
 import androidx.compose.material.SnackbarResult
 
-fun SnackbarResult.log() =
+internal fun SnackbarResult.log() =
     when (this) {
         SnackbarResult.ActionPerformed -> Log.d("SampleDefaultBulletin", "Snackbar action performed")
         SnackbarResult.Dismissed -> Log.d("SampleDefaultBulletin", "Snackbar dismissed")

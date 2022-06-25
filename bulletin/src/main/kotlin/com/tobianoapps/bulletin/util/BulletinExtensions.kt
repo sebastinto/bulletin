@@ -22,7 +22,7 @@ import com.tobianoapps.bulletin.data.Changes
 import com.tobianoapps.bulletin.data.Release
 import com.tobianoapps.bulletin.data.config.BulletinConfig
 
-fun Bulletin.sortedByMostRecent(
+internal fun Bulletin.sortedByMostRecent(
     showLatestOnly: Boolean? = false
 ): List<Release> {
     return when (showLatestOnly) {
@@ -34,5 +34,5 @@ fun Bulletin.sortedByMostRecent(
 internal fun Changes.groupedByChangeType(): Map<ChangeType, Changes> = this.groupBy { it.changeType }
 
 
-fun BulletinConfig.hasTagBorder(): Boolean = this.style.tagStyle.borderStroke != null
+internal fun BulletinConfig.hasTagBorder(): Boolean = this.style.tagStyle.borderStroke != null
 fun BulletinConfig.hasCardBorder(): Boolean = this.style.cardStyle.borderStroke != null

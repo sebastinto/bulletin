@@ -36,7 +36,7 @@ import androidx.compose.ui.composed
  * @param[then] [Modifier] to be applied conditionally
  */
 @SuppressLint("UnnecessaryComposedModifier")
-fun Modifier.`if`(
+internal fun Modifier.`if`(
     condition: Boolean,
     then: @Composable Modifier.() -> Modifier
 ): Modifier =
