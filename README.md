@@ -28,7 +28,7 @@ allprojects {
 In your app or module `build.gradle` file:
 ```gradle
 dependencies {
-    implementation("com.tobianoapps:bulletin:1.0.0")
+    implementation("com.tobianoapps:bulletin:1.0.1")
 }
 ```
 
