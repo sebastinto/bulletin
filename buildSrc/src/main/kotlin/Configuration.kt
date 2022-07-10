@@ -20,7 +20,7 @@ object Configuration {
     const val minSdk = 21
     private const val majorVersion = 1
     private const val minorVersion = 0
-    private const val patchVersion = 1
+    private const val patchVersion = 2
     private const val qualifier = ""
     const val versionName = "$majorVersion.$minorVersion.$patchVersion$qualifier"
     const val sampleVersionCode = 2
