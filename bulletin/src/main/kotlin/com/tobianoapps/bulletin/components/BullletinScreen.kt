@@ -242,8 +242,12 @@ fun BulletinScreenImpl(
                             release
                                 .changes
                                 .groupedByChangeType()
-                                .forEach { (type, changes) ->
-                                    ChangeTypeTag(changeType = type, config = config)
+                                .entries.forEachIndexed { index, (type, changes) ->
+                                    ChangeTypeTag(
+                                        changeType = type,
+                                        config = config,
+                                        index = index
+                                    )
                                     changes.forEach { change ->
                                         ChangeText(
                                             change = change,
