@@ -23,14 +23,15 @@ import Versions.materialVersion
 import Versions.okhttpVersion
 
 object Versions {
-    internal const val activityComposeVersion = "1.2.0-alpha08"
-    internal const val composeNavigationVersion = "2.5.0-beta01"
-    const val composeVersion = "1.2.0-beta02"
-    internal const val okhttpVersion = "4.9.3"
+    internal const val activityComposeVersion = "1.5.1"
+    internal const val composeNavigationVersion = "2.5.1"
+    internal const val composeVersion = "1.2.1"
+    const val composeCompilerVersion = "1.3.1"
+    internal const val okhttpVersion = "4.10.0"
 
-    const val materialVersion = "1.7.0-alpha01"
-    const val appcompatVersion = "1.4.1"
-    const val constraintLayoutVersion = "2.1.3"
+    const val materialVersion = "1.7.0-beta01"
+    const val appcompatVersion = "1.5.0"
+    const val constraintLayoutVersion = "2.1.4"
 }
 
 object Dependencies {
@@ -41,7 +42,7 @@ object Dependencies {
     const val composeTooling = "androidx.compose.ui:ui-tooling:$composeVersion"
     const val composeToolingPreview = "androidx.compose.ui:ui-tooling-preview:$composeVersion"
 
-    const val coreKtx =  "androidx.core:core-ktx:1.7.0"
+    const val coreKtx =  "androidx.core:core-ktx:1.8.0"
 
     /* OkHttp */
     const val okhttpBom = "com.squareup.okhttp3:okhttp-bom:$okhttpVersion"
@@ -64,8 +65,8 @@ object Dependencies {
     const val testJunit = "junit:junit:4.13.2"
     const val testTruth = "com.google.truth:truth:1.1.3"
     const val testJson = "org.json:json:20220320"
-    const val testCoroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.2"
-    const val mockitoCore = "org.mockito:mockito-core:4.6.0"
+    const val testCoroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4"
+    const val mockitoCore = "org.mockito:mockito-core:4.8.0"
     const val mockitoKotlin = "com.nhaarman:mockito-kotlin:1.6.0"
-    const val mockWebServer = "com.squareup.okhttp3:mockwebserver:4.9.3"
+    const val mockWebServer = "com.squareup.okhttp3:mockwebserver:4.10.0"
 }
