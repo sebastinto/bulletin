@@ -28,6 +28,7 @@ import java.util.*
 class ExtensionsTest {
 
     private val epochMillis = 1646113134534L
+    private val textZoneId = ZoneId.of("America/Chicago")
 
     private val new = Change(changeType = NEW, summary = "new")
     private val fixed = Change(changeType = FIXED, summary = "fixed")
@@ -110,7 +111,7 @@ class ExtensionsTest {
     @Test
     fun `localDate extensions without param return correct LocalDate`() {
         Truth
-            .assertThat(epochMillis.localDate())
+            .assertThat(epochMillis.localDate(zoneId = textZoneId))
             .isEqualTo("Feb 28, 2022")
     }
 
