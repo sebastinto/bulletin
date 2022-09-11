@@ -15,8 +15,8 @@
  */
 
 object Configuration {
-    const val compileSdk = 31
-    const val targetSdk = 31
+    const val compileSdk = 33
+    const val targetSdk = 33
     const val minSdk = 21
     private const val majorVersion = 1
     private const val minorVersion = 0
