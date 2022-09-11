@@ -34,7 +34,7 @@ import androidx.compose.ui.unit.sp
 import com.tobianoapps.bulletin.components.BulletinScreen
 import com.tobianoapps.bulletin.util.capitalized
 import com.tobianoapps.bulletin.util.forceShowSnackbar
-import com.tobianoapps.bulletin.util.generateRandomBulletin
+import com.tobianoapps.sample.util.generateRandomBulletin
 import com.tobianoapps.sample.data.customBulletinConfig
 import com.tobianoapps.sample.data.customShape
 import kotlinx.coroutines.launch

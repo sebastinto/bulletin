@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.tobianoapps.bulletin.util
+package com.tobianoapps.sample.util
 
 import com.tobianoapps.bulletin.data.*
 import cz.quanti.quase.loremkotlinum.Lorem
