@@ -15,15 +15,15 @@
  */
 
 object Configuration {
-    const val compileSdk = 31
-    const val targetSdk = 31
+    const val compileSdk = 33
+    const val targetSdk = 33
     const val minSdk = 21
     private const val majorVersion = 1
     private const val minorVersion = 0
-    private const val patchVersion = 2
+    private const val patchVersion = 3
     private const val qualifier = ""
     const val versionName = "$majorVersion.$minorVersion.$patchVersion$qualifier"
-    const val sampleVersionCode = 2
+    const val sampleVersionCode = 3
     const val sampleVersionName = "$majorVersion.$minorVersion.$patchVersion"
     const val groupId = "com.tobianoapps"
     const val artifactId = "bulletin"

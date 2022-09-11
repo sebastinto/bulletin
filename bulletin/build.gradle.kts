@@ -60,7 +60,7 @@ android {
     }
 
     composeOptions {
-        kotlinCompilerExtensionVersion = Versions.composeVersion
+        kotlinCompilerExtensionVersion = Versions.composeCompilerVersion
     }
 }
 
@@ -76,9 +76,6 @@ dependencies {
 
     implementation(platform(okhttpBom))
     implementation(okhttp)
-
-    /*** Text Generator ***/
-    implementation(loremKotlinum)
 
     /*** JAVA 8+ APIS ANDROID SDK < 26 ***/
     coreLibraryDesugaring(desugar)
