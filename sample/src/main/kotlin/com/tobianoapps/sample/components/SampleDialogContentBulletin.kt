@@ -35,7 +35,7 @@ import androidx.compose.ui.unit.dp
 import com.tobianoapps.bulletin.components.BulletinScreen
 import com.tobianoapps.bulletin.data.config.BulletinConfig
 import com.tobianoapps.bulletin.util.allCaps
-import com.tobianoapps.bulletin.util.generateRandomBulletin
+import com.tobianoapps.sample.util.generateRandomBulletin
 
 @Composable
 fun SampleDialogContentBulletin(
